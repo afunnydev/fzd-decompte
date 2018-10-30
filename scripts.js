@@ -9,7 +9,7 @@ var endTime = new Date("November 4, 2018 17:00:00");
 var duration = (endTime.getTime() - startedTime.getTime()) / 1000;
 var sinceNow = (nowTime.getTime() - startedTime.getTime()) / 1000;
 
-var countInterval = 1;
+var countInterval = 2;
 
 if (sinceNow >= 0) {
 
@@ -27,7 +27,7 @@ if (sinceNow >= 0) {
 		quantity.textContent = Math.round(productedGarbage);
 	}
 
-	setInterval(changeTime, countInterval);
+	setInterval(changeTime, countInterval*1000);
 } else {
 	quantity.textContent = 0;
 	progressBar.style.width = '0%';
