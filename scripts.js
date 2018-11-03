@@ -3,7 +3,7 @@ var quantity = document.getElementById('quantity');
 
 var rate = 0.45;
 var startedTime = new Date("November 3, 2018 09:30:00");
-var nowTime = new Date("November 3, 2018 13:32:00");
+var nowTime = new Date();
 var endTime = new Date("November 4, 2018 17:00:00");
 
 var duration = (endTime.getTime() - startedTime.getTime()) / 1000;
