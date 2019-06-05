@@ -2,9 +2,9 @@ var progressBar = document.getElementsByClassName('progress-bar')[0];
 var quantity = document.getElementById('quantity');
 
 var rate = 0.45;
-var startedTime = new Date("November 3, 2018 09:30:00");
+var startedTime = new Date("June 5, 2019 16:00:00");
 var nowTime = new Date();
-var endTime = new Date("November 4, 2018 17:00:00");
+var endTime = new Date("June 14, 2019 16:00:00");
 
 var duration = (endTime.getTime() - startedTime.getTime()) / 1000;
 var sinceNow = (nowTime.getTime() - startedTime.getTime()) / 1000;
